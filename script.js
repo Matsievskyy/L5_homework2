@@ -37,6 +37,6 @@ let convert = newArray.map(Number);
 
 const MaxValue = (Math.max(...convert));
 const MinValue = (Math.min(...convert));
-console.log(indexOfMaxValue);
-console.log(indexOfMinValue);
+console.log(MaxValue);
+console.log(MinValue);
 
