@@ -35,8 +35,8 @@ console.log(sumLessThatZero(lessThatZero));
 // ----------------------------------------------------3 завдання(найбільше та найменше значення)--------------------------------------------
 let convert = newArray.map(Number);
 
-const indexOfMaxValue = (Math.max(...convert));
-const indexOfMinValue = (Math.min(...convert));
+const MaxValue = (Math.max(...convert));
+const MinValue = (Math.min(...convert));
 console.log(indexOfMaxValue);
 console.log(indexOfMinValue);
 
